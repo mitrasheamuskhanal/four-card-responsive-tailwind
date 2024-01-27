@@ -46,7 +46,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Poppins, sans-serif;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -544,8 +544,58 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.font-\[poopins\] {
-  font-family: poopins;
+.m-1 {
+  margin: 0.25rem;
+}
+
+.m-4 {
+  margin: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-\[15px\] {
@@ -556,19 +606,26 @@ video {
   font-weight: 700;
 }
 
-.font-light {
-  font-weight: 300;
-}
-
-.font-normal {
-  font-weight: 400;
+.font-extrabold {
+  font-weight: 800;
 }
 
 .uppercase {
   text-transform: uppercase;
 }
 
-.text-red-700 {
+.text-grayish-blue {
   --tw-text-opacity: 1;
-  color: rgb(185 28 28 / var(--tw-text-opacity));
+  color: hsl(229 6% 66% / var(--tw-text-opacity));
+}
+
+.text-very-dark-blue {
+  --tw-text-opacity: 1;
+  color: hsl(234 12% 34% / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:max-w-\[550px\] {
+    max-width: 550px;
+  }
 }
