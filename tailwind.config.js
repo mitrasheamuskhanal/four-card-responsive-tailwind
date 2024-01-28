@@ -12,7 +12,7 @@ module.exports = {
         'slightly-transparent-white': 'hsla(0, 0%, 100%, 0.75)',
         'slightly-transparent-white2': 'hsla(0, 0%, 100%, 0.6)',
         'grayish-blue': 'hsl(229, 6%, 66%)',
-        'supervisor': '2px solid hsl(180, 62%, 55%)',
+        'supervisor': 'hsl(179, 63%, 54%)',
         'team':'hsl(358, 67%, 61%)',
         'karma':'hsl(33, 90%, 65%)',
         'calculator':'hsl(212, 78%, 63%)',
