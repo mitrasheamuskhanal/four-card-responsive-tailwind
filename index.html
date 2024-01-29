@@ -1,52 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Four Cart</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
-</head>
-<body class=" text-[15px] h-screen   flex justify-center items-center flex-col">
-  <!-- First section Start -->
-  <div class=" text-center  max-w-[400px] md:max-w-[550px] mt-[500px] md:mt-[50px]">
-    <h1 class=" uppercase font-[400] text-grayish-blue text-2xl">  Reliable, efficient delivery <br>
-      <span class="font-600 font-extrabold text-very-dark-blue"> Powered by Technology</span> </h1>
-      <p class="text-1xl p-3 text-very-dark-blue">Our Artificial Intelligence powered tools  use millions of project data  points to ensure that your project is successful</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Four Cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body class="text-[15px] h-screen flex justify-center items-center flex-col ndebug-screens">
+    <!-- First section Start -->
+    <div
+      class="text-center max-w-[400px] xl:max-w-[550px] mt-[500px] xl:mt-[50px]">
+      <h1 class="uppercase font-[400] text-grayish-blue text-2xl">
+        Reliable, efficient delivery <br />
+        <span class="font-600 font-extrabold text-very-dark-blue">
+          Powered by Technology</span>
+      </h1>
+      <p class="text-1xl p-3 text-very-dark-blue">
+        Our Artificial Intelligence powered tools use millions of project data
+        points to ensure that your project is successful
+      </p>
     </div>
     <!-- First section  End-->
- <main class=" md:max-w-[70vw] md:mx-auto">
-  <div class="md:flex md:gap-4 md:justify-center md:items-center  ">
-    <div class="col flex-1">
-      <div class="card  rounded-xl border-t-4 border-supervisor shadow-2xl shadow-[#40d4d163] p-6 m-5 drop-shadow-2xl w-[390px] h-[243px] ">
-        <h2 class="font-bold text-3xl ">Supervisor</h2>
-        <p>Monitors activity to identify project roadblocks</p>
-        <img class="mt-2 block ml-auto" src="./images/icon-supervisor.svg" alt="supervisor">
+    <main class="xl:max-w-[1280px] xl:mx-auto ">
+      <div class="xl:flex xl:gap-4 xl:justify-center xl:items-center">
+        <div class="col flex-1 ">
+          <div
+            class="card rounded-xl border-t-4 border-supervisor shadow-2xl shadow-[#40d4d163] p-6 m-5 drop-shadow-2xl w-[390px] h-[243px]"
+          >
+            <h2 class="font-bold text-3xl">Supervisor</h2>
+            <p>Monitors activity to identify project roadblocks</p>
+            <img
+              class="mt-2 block ml-auto"
+              src="./images/icon-supervisor.svg"
+              alt="supervisor"
+            />
+          </div>
+        </div>
+        <div class="col flex-1">
+          <div
+            class="card rounded-xl border-team border-t-4 shadow-2xl shadow-[#de595d6b] p-6 m-5 drop-shadow-2xl w-[390px] h-[243px]"
+          >
+            <h2 class="font-bold text-3xl">Team Builder</h2>
+            <p>
+              Scans our talent network to create the optimal team for your
+              project
+            </p>
+            <img
+              class="mt-2 block ml-auto"
+              src="./images/icon-team-builder.svg"
+              alt="team-builder"
+            />
+          </div>
+          <div
+            class="card rounded-xl border-karma border-t-4 shadow-2xl p-6 m-5 drop-shadow-2xl w-[390px] h-[243px] shadow-[#f6ae5571]"
+          >
+            <h2 class="font-bold text-3xl">Karma</h2>
+            <p>Regularly evaluates our talent to ensure quality</p>
+            <img
+              class="mt-2 block ml-auto"
+              src="./images/icon-karma.svg"
+              alt="karma"
+            />
+          </div>
+        </div>
+        <div class="col flex-1">
+          <div
+            class="card rounded-xl border-calculator border-t-4 shadow-2xl p-6 m-5 drop-shadow-2xl w-[390px] h-[243px] shadow-[#579cea5e]"
+          >
+            <h2 class="font-bold text-3xl">Calculator</h2>
+            <p>
+              Uses data from past projects to provide better delivery estimates
+            </p>
+            <img
+              class="mt-2 block ml-auto"
+              src="./images/icon-calculator.svg"
+              alt="calculator"
+            />
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="col flex-1 ">
-      <div class="card  rounded-xl border-team border-t-4 shadow-2xl shadow-[#de595d6b] p-6 m-5 drop-shadow-2xl w-[390px] h-[243px]">
-      <h2 class="font-bold text-3xl ">Team Builder</h2>
-      <p>Scans our talent network to create the optimal team for your project</p>
-      <img class ="mt-2 block ml-auto" src="./images/icon-team-builder.svg" alt="team-builder">
-     </div>
-      <div class="card rounded-xl border-karma border-t-4 shadow-2xl p-6 m-5 drop-shadow-2xl w-[390px] h-[243px] shadow-[#f6ae5571]">
-        <h2 class="font-bold text-3xl ">Karma</h2>
-        <p>Regularly evaluates our talent to ensure quality</p>
-        <img class ="mt-2 block ml-auto" src="./images/icon-karma.svg" alt="karma">
-      </div>
-    </div>
-    <div class="col flex-1">
-      <div class="card rounded-xl border-calculator border-t-4 shadow-2xl p-6 m-5 drop-shadow-2xl w-[390px] h-[243px] shadow-[#579cea5e]">
-        <h2 class="font-bold text-3xl ">Calculator</h2>
-        <p>Uses data from past projects to provide better delivery estimates</p>
-        <img class ="mt-2 block ml-auto" src="./images/icon-calculator.svg" alt="calculator">
-      </div>
-    </div>
-  </div>
- </main>
-</body>
+    </main>
+  </body>
 </html>
